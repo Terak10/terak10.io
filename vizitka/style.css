@@ -1,0 +1,107 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    
+ 
+    background-image: url("prototype/pozadie5.jpeg");
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial;
+    color: rgb(192, 200, 200);
+    max-width: 100%;
+    height: auto;
+    background-repeat: no-repeat, repeat;
+    
+}
+
+
+
+
+.main {
+    background-color: #352e2b;
+    border-radius: 50px;
+    max-width: 624px;
+    margin: 16px;
+    padding: 35px;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .main {
+        margin-top: 160px;
+    }
+}
+
+.about__describe {
+    margin: 0;
+    line-height: 22px;
+}
+
+.about__describe--media {
+    margin-top: 16px;
+}
+
+.header {
+    margin-bottom: 24px;
+}
+
+.header__title,
+.header__subtitle {
+    margin: 0;
+}
+
+.header__title {
+    font-size: 36px;
+    font-weight: normal;
+    color: #665530;
+}
+
+.header__subtitle {
+    font-size: 18px;
+    font-family: "Iceberg", cursive;
+    color: #5a5a66;
+}
+
+.photo {
+    margin-right: 32px;
+    width: 168px;
+    height: 232px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    opacity: 1;
+    
+}
+
+
+
+.strong {
+    font-weight: normal;
+    color: #665530;
+   
+}
+
+.about__link {
+    text-decoration: none;
+    color: #70692c;
+    transition: font-weight .3s linear;
+    transition: transform .3s linear;
+}
+
+.about__link:hover {
+    font-weight: bold;
+    transform: scaleX(1.10);
+}
+
